@@ -1,0 +1,141 @@
+body{
+    background-color: #f0faf9;
+    margin: 0;
+    text-align: center;  /*will center all the item whose width are not set*/
+    font-family: 'Ubuntu', sans-serif;
+}
+.list{
+    list-style-type: none;
+    /* display: inline-block; */
+    /* border: 2px solid black; */
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.list-item{
+    display: inline-block;
+    padding: 2px 30px;
+    line-height: 3;
+    font-size: 1.3rem;
+}
+h1{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-size: 5rem;
+    color: #66BFBF;
+    line-height: 1.5;
+}
+h2{
+    font-size: 1.5rem;
+    color: #11999E;
+    font-weight: normal;
+}
+h3{
+    color:#11999E;
+}
+a{
+    color:#11999E;
+    text-decoration: none;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 1.5;
+    text-align: left;
+}
+.coding{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.development{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.top-container{
+    margin: 0;
+    padding-top: 100px;
+    background-color: #f0faf9;
+    position: relative;  
+    /* border: 1px solid black; */
+}
+.profile{
+    padding-bottom: 50px;
+}
+.middle-container{
+    padding-top: 100px;
+    background-color: #f0faf9;
+    /* border: 1px solid black; */
+}
+.bottom-container{
+    background-color: #f0faf9;
+    /* border: 1px solid black; */
+}
+.pro{
+    font-weight: bold;
+}
+.top-cloud{
+   position: absolute;  /*Absolute positioning its one of the parent must have relative positioning otherwise it will absolute with respect to body*/
+   right: 300px;
+   top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 500px;
+    left: 200px;
+}
+.skills{
+    padding-top: 40px;
+}
+.contact-me{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #db298b;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #191cdf;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .mountain{
+      height: 500px;
+      width: 43%;
+      background-color:#f0faf9 ;
+      padding-top: 30px;
+  }
